@@ -174,7 +174,7 @@ char *roman_units_diff(const char *str1, const char *str2) {
     return result;
 }
 
-int main() {
+int romantoint() {
     char roman1[100], roman2[100];
     char *units1, *units2, *diff_units, *result_roman;
 
