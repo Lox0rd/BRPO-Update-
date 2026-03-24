@@ -6,7 +6,7 @@
 
 void romantoint(void);
 void dvachisla(void);
-void program3(void);
+void clock_main(void);
 
 int main() {
     char login[MAX_LEN];
@@ -90,7 +90,7 @@ int main() {
             dvachisla();
             break;
         case 3:
-            program3();
+            clock_main();
             break;
         case 0:
             printf("Выход из программы.\n");
