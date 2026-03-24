@@ -34,7 +34,7 @@ void write_string(FILE* file, const char* str) {
     fwrite(str, sizeof(char), len, file);
 }
 
-int main() {
+int dvachisla() {
     FILE* file;
 
     // Создаём файл для записи

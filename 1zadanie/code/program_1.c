@@ -7,13 +7,13 @@
 
 void read_and_write_result(char roman1[], char roman2[], const char *result) {
     // Читаем из файла
-    FILE *f = fopen("./file.txt", "r");
+    FILE *f = fopen("./fileforfirst.txt", "r");
     fscanf(f, "%99s", roman1);
     fscanf(f, "%99s", roman2);
     fclose(f);
 
     // Записываем результат обратно в тот же файл
-    f = fopen("./file.txt", "w");
+    f = fopen("./fileforfirst.txt", "w");
     fprintf(f, "%s\n", result);
     fclose(f);
 }
